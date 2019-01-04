@@ -18,6 +18,4 @@ before_install:
     - eval "${MATRIX_EVAL}"
 
 script:
-    g++ -std=c++11 -Wall -o test/TestCase test/TestCase.cpp &&
-    test/TestCase --success &&
-    make && ./main foo bar baz
+    make && ./main
