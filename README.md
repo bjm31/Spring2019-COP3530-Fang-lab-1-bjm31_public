@@ -11,7 +11,7 @@ If you haven't already created a directory on your PC for the work you'll do in 
 * Click "Accept this assignment". This will create a new private repository in Github for you to submit your work.
 * Near the top right of your browser, you'll see a green "Clone or download" button.
 	Click the button to copy the URL.
-* Run `git clone URL_COPIED_ABOVE`.
+* Type the command `git clone URL_COPIED_ABOVE` into Git Bash (Windows) or the Terminal (Mac/Linux).
 This will create a directory called lab-1-YOUR_NAME that will contain this README.md file along with a .gitignore file (whose purpose is to tell git not to commit certain files - such as executables - into the repository).
 
 * If you haven't already configured git, do so by adding your name and email, at a minimum.
@@ -41,6 +41,10 @@ sbitbot:BitnerSteven
 ...
 96 97 98 99 100
 ```
+
+**A Makefile is provided in this repository that will build an executable named `main` if your work is performed in a file called `main.cpp`.
+To create the executable, type `make` at the command line.
+Then, run the file named main, e.g. `./main`, or debug compiler errors if there were any.**
 
 ## "Saving" work
 Once your program is working as expected, go back to your command line (or Git Bash).
